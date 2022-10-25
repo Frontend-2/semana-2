@@ -27,18 +27,21 @@ header {
 header h1 {
     text-align: center;
 }
-.tema{
+
+.tema {
     display: flex;
     justify-content: end;
 }
-.tema button{
+
+.tema button {
     padding: .4rem .8rem;
     border: none;
     border-radius: 1rem;
     background-color: var(--oscuro);
     color: white;
 }
-.info{
+
+.info {
     display: flex;
     gap: 2rem;
     color: var(--oscuro)
@@ -97,4 +100,29 @@ footer {
     background-color: var(--celeste-oscuro);
     color: white;
     text-align: center;
+}
+
+/* ------------------------------- tema oscuro ------------------------------ */
+.dark {
+    background-color: var(--oscuro);
+}
+
+.dark header {
+    background-color: black;
+}
+
+.dark .info {
+    color: white;
+}
+
+.dark .noticias {
+    background-color: var(--oscuro);
+}
+
+.dark footer {
+    background-color: black;
+}
+.dark .noticias article {
+    background-color: black;
+    color: white;
 }
